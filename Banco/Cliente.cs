@@ -20,7 +20,7 @@ namespace Banco
         {
             Console.WriteLine("Digite o nome do cliente:");
             nome = Console.ReadLine();
-            /*Console.WriteLine("Digite o CPF do cliente:");
+            Console.WriteLine("Digite o CPF do cliente:");
             cpf = Console.ReadLine();
             Console.WriteLine("Digite o email do cliente:");
             email = Console.ReadLine();
@@ -33,7 +33,7 @@ namespace Banco
             Console.WriteLine("Digite o saldo da conta do cliente:");
             saldo = double.Parse(Console.ReadLine());
 
-            */
+            
 
 
         }
