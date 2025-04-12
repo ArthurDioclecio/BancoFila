@@ -208,7 +208,7 @@ namespace Banco
 
 
             }
-            // acho q dava pra deixar a selecao de cliente e fila na msm variavel mas to com preguiça de arrumar
+            // acho q dava pra deixar a selecao de cliente e fila na msm variavel
 
             while (true)
             {
