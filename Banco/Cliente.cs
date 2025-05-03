@@ -12,9 +12,9 @@ namespace Banco
         public string cpf;
         public string email;
         public string telefone;
-        public int conta;
+        public string conta;
         public int idade;
-        public double saldo;
+        public int saldo;
         public int ordem;
         public int pri;
 
@@ -31,39 +31,12 @@ namespace Banco
             Console.WriteLine("Digite a idade do cliente:");
             idade = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite o número da conta do cliente:");
-            conta = int.Parse(Console.ReadLine());
+            conta = Console.ReadLine();
             Console.WriteLine("Digite o saldo da conta do cliente:");
-            saldo = double.Parse(Console.ReadLine());
+            saldo = int.Parse(Console.ReadLine());
             Console.WriteLine("Digite 1 para cliente prioritario \nDigite 0 para clienfe NÃO prioritario:");
             pri = int.Parse(Console.ReadLine());
-
             ordem = chegada;
-
-
-
-
-        }
-        public void adicionarCliente()
-        {
-            Console.WriteLine("Digite o nome do cliente:");
-            nome = Console.ReadLine();
-            Console.WriteLine("Digite o CPF do cliente:");
-            cpf = Console.ReadLine();
-            Console.WriteLine("Digite o email do cliente:");
-            email = Console.ReadLine();
-            Console.WriteLine("Digite o telefone do cliente:");
-            telefone = Console.ReadLine();
-            Console.WriteLine("Digite a idade do cliente:");
-            idade = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite o número da conta do cliente:");
-            conta = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite o saldo da conta do cliente:");
-            saldo = double.Parse(Console.ReadLine());
-            ordem = 0;
-            pri = 0;
-
-
-
 
         }
 
