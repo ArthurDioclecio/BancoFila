@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Cliente.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="FilaBanco.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
