@@ -130,3 +130,28 @@ update funcionario set sal_func = sal_func*1.1 where cod_func not in(select cod_
 delete from funcionario where cod_func not in (select cod_func from dependente);
 
 
+
+
+
+
+
+
+
+
+#include <Stepper.h>
+
+const int stepsPerRevolution = 2048;
+
+// Pinos conectados ao driver do motor
+Stepper myStepper(stepsPerRevolution, 8, 10, 9, 11);
+
+void setup() {
+  myStepper.setSpeed(15); // velocidade em RPM
+}
+
+void loop() {
+  myStepper.step(1); // um passo por iteração: gira continuamente
+}
+
+
+
